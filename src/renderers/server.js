@@ -5,11 +5,11 @@ import { App } from 'components/App';
 
 export async function serverRenderer() {
   const initialData = {
-    appName: 'Reactful',
+    appName: 'Star Match Game',
   };
 
   const pageData = {
-    title: `Hello ${initialData.appName}`,
+    title: `React ${initialData.appName}`,
   };
 
   return Promise.resolve({
